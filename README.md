@@ -34,3 +34,7 @@ return object :
 }
 ```
 
+## UML
+
+![](./img/uml.jpg)
+

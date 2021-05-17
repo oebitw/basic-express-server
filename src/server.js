@@ -50,7 +50,6 @@ function personHandler(req,res){
   res.json({
     name: req.query.name,
   });
-
 }
 
 app.use('*', notFound);

@@ -4,7 +4,7 @@
 ## Author: Omar Ewies
 * [Tests Report](https://github.com/oebitw/basic-express-server/actions)
 
-* [Front End](https://oebitw-basic-express-server.herokuapp.com/)
+* [Heroku](https://oebitw-basic-express-server.herokuapp.com/)
 
 ## Setup
 

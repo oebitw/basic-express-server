@@ -8,7 +8,7 @@ const express = require('express');
 const notFound = require('./error-handlers/404.js');
 const serverError = require('./error-handlers/500.js');
 const logger = require('./middleware/logger.js');
-const checkName = require('./middleware/validator.js').checkName;
+const validator = require('./middleware/validator');
 
 
 ///////////////////////////
@@ -32,7 +32,7 @@ app.use(logger);
 
 app.get('/', homeHandler);
 
-app.get('/person',checkName(),personHandler);
+app.get('/person',validator,personHandler);
 
 
 ///////////////////////////
